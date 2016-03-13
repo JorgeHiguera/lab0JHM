@@ -29,4 +29,26 @@ public class SearchController{
     	resp r = new resp(twitter.search(q));;
         return r.getresp();
     }
+    
+    /*
+    @Controller
+    public class SearchController{
+        @Autowired
+        TwitterLookupService twitter;
+
+        @RequestMapping("/")
+        public String greeting() {
+            return "index";
+        }
+
+        @RequestMapping("/search")
+        public String search(@RequestParam("q") String q, Model m) {
+        	m.addAttribute("res", twitter.search(q)); 
+            return "search :: content";
+        }
+            //JSON
+              public SearchResults search(@RequestParam("q") String q){
+              return twitter.search(q);
+              }
+     */
 }
