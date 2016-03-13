@@ -4,6 +4,7 @@ import org.springframework.social.twitter.api.SearchResults;
 import com.fasterxml.jackson.annotation.JsonView;
 
 public class Res {
+	
 
     private SearchResults resultat;
 
