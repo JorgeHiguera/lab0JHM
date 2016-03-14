@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import es.unizar.tmdad.lab0.service.TwitterLookupService;
 
-
 @Controller
 public class SearchController{
 

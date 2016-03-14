@@ -5,6 +5,7 @@ import com.fasterxml.jackson.annotation.JsonView;
 
 public class resp {
 
+	
     private SearchResults resultat;
 
     public resp() {
@@ -17,7 +18,5 @@ public class resp {
     @JsonView
     public SearchResults getresp() {
         return this.resultat;
-    }
-    
-    
+    }    
 }
