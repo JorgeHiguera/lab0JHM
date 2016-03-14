@@ -18,4 +18,6 @@ public class resp {
     public SearchResults getresp() {
         return this.resultat;
     }
+    
+    
 }

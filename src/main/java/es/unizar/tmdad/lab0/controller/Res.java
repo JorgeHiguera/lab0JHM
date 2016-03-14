@@ -10,6 +10,8 @@ public class Res {
 
     public Res() {
     }
+    
+    
 
     public Res(SearchResults searchResults) {
         this.resultat = searchResults;
