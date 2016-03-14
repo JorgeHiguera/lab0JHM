@@ -2,6 +2,7 @@ $(document).ready(function() {
 	registerSearch();
 });
 
+
 function registerSearch() {
 	$("#search").submit(function(ev){
 		event.preventDefault();
